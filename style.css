@@ -1892,7 +1892,6 @@ ease;
 .hero-content.animate h1 {
     color: #ffffff;
     font-size: 25px;
-    width: 90%;
 }
 .btn-custom {
     padding: 8px 9px !important;
@@ -1916,15 +1915,26 @@ ease;
     font-size: 13px;
 }
 .hero-content {
-    transform: translateY(50%);
+    transform: translateY(25%);
 
 }
 #hero .carousel-item {
-
-    min-height: 500px;
+    min-height: 400px !important;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+#hero .carousel-item {
+    height: 65vh;
+    min-height: 600px;
+
+}
+.hero-content.animate a:nth-of-type(1) {
+    animation: fadeUp 700ms 
+cubic-bezier(.2, .9, .3, 1) forwards;
+    animation-delay: 330ms;
+    margin: 0;
+    margin-right: 100px;
 }
 
     }
