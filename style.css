@@ -1651,7 +1651,6 @@ list-style: none;
   align-items: center;
   font-size: 15px;
   color: #333;
-  white-space: nowrap;
   margin-bottom: 8px;
 }
 
@@ -1822,3 +1821,128 @@ ease;
     font-size: 16px;
 
     }
+
+
+
+    @media screen and (max-width: 576px) {
+    .new-why-sec {
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.choose-us-section {
+    background: #f0fbff;
+    color: var(--text-dark);
+    padding: 10px;
+}
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-top: 30px;
+
+}
+.choose-card {
+    margin-top: 20px;
+}
+   .navbar-brand img{
+      width: 177px !important;
+    }
+    .about-section h2 {
+    font-size: 24px;
+}
+.about-section p {
+
+    font-size: 13px;
+}
+.about-text-wrapper{
+  padding: 5px !important;
+}
+.company-group {
+    gap: 4px;
+}
+.company-group p {
+    padding: 10px 6px;
+    background-color: #26519a;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 10px !important;
+}
+.industries-header .section-title {
+    font-size: 25px;
+}
+.industries-header .sub-title {
+    font-size: 11px;
+}
+.product-table i {
+    font-size: 12px;
+}
+.top-bar-heading h2 {
+    font-style: italic;
+    font-size: 19px;
+    padding: 17px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.top-bar {
+    background-color: #26519a;
+    color: var(--white);
+     padding: 0px 0;  font-size: 14px;
+}
+.hero-content.animate h1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+.btn-custom {
+    padding: 8px 9px !important;
+    display: inline-flex !important;
+    gap: 14px;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-right: 20px;
+    margin-top: 19px;
+}
+.breadcrumb-section {
+    background: linear-gradient(#000000aa, #00000085), url(imgs/brread.jpg) no-repeat center center / cover;
+    padding: 68px 0;
+}
+.breadcrumb-section h2 {
+    font-size: 28px;
+}
+.breadcrumb-section .breadcrumb {
+    font-size: 13px;
+}
+    }
+
+    .navbar-brand img{
+      width: 250px;
+    }
+
+    
+element.style {
+}
+.carousel-control.next {
+    right: 10px;
+}
+.carousel-control:hover {
+    background: var(--hover-light);
+    color: var(--primary-color);
+    transform: translateY(-50%) scale(1.1);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--secondary-color);
+    border: none;
+    width: 25px;
+    height: 25px;
+}
