@@ -1914,6 +1914,18 @@ ease;
 .breadcrumb-section .breadcrumb {
     font-size: 13px;
 }
+.hero-content {
+    transform: translateY(24%);
+
+}
+#hero .carousel-item {
+
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
     }
 
     .navbar-brand img{
