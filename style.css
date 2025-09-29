@@ -1892,6 +1892,7 @@ ease;
 .hero-content.animate h1 {
     color: #ffffff;
     font-size: 25px;
+    width: 90%;
 }
 .btn-custom {
     padding: 8px 9px !important;
