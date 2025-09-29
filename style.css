@@ -1804,3 +1804,20 @@ ease;
     .office-details a:hover {
       color: #ffcc00;
     }
+
+    .company-group{
+      display: flex;
+      align-items: center;
+      gap: 10px 25px;
+      justify-content: space-around;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .company-group p{
+    padding: 10px 25px;
+    background-color: #26519a;
+    border-radius: 12px;
+    color: #fff;
+
+    }
